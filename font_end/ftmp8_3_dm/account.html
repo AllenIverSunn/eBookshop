@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>个人信息</title>
+  <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./Css/boostrap.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1><strong>Account</strong></h1>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a id="book">图书</a>
+          </li>
+          <li class="active">
+            <a href="#" class="active">个人资料</a>
+          </li>
+          <li>
+            <a id="basket">购物车</a>
+          </li>
+          <li>
+            <a id="order">订单信息</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- 导航栏 -->
+    <div style="padding: 100px 100px 10px;" class="row" align="center">
+      <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+          <p><strong>Username</strong></p>
+          <input type="text" class="form-control" placeholder="Username" id="username">
+        </div>
+        <br>
+        <div class="input-group">
+          <p><strong>Name</strong></p>
+          <input type="text" class="form-control" placeholder="Name" id="name">
+        </div>
+        <br>
+        <div class="input-group">
+          <p><strong>Email</strong></p>
+          <input type="text" class="form-control" placeholder="Email" id="email">
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <button class="col-md-2">
+        <a id="changePassword">
+          更换密码
+        </a>
+      </button>
+      <button class="col-md-2 col-md-offset-8" id="save">保存</button>
+    </div>
+  </div>
+
+
+  <!-- end -->
+  </div>
+
+</body>
+
+</html>
+<script type="text/javascript" src="./Js/account.js"></script>
+

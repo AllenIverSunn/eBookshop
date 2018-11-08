@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>图书清单</title>
+  <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./Css/boostrap.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>eBookshop</h1>
+    <!-- 导航栏 -->
+    <!-- <nav class="navbar navbar-inverse">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#">图书</a>
+          </li>
+          <li>
+            <a href="#">个人资料</a>
+          </li>
+          <li>
+            <a href="#">购物车</a>
+          </li>
+          <li>
+            <a href="#">订单信息</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#" class="active" id="book">图书</a>
+          </li>
+          <li>
+            <a id="account">个人资料</a>
+          </li>
+          <li>
+            <a id="basket">购物车</a>
+          </li>
+          <li>
+            <a id="order">订单信息</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ======================= -->
+    <div id="content" class="row">
+
+      <div id="main" class="col-md-9">
+
+      </div>
+      <div id="scroll" class="col-md-2">
+
+        <h2>Sales Rank</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <span class="badge">1. </span>
+            <a id="num_1"></a>
+          </li>
+          <li class="list-group-item">
+            <span class="badge">2. </span>
+            <a id="num_2"></a>
+          </li>
+          <li class="list-group-item">
+            <span class="badge">3. </span>
+            <a id="num_3"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 分页 -->
+    <div class="row">
+      <ul class="pager">
+        <li>
+          <button id="previous">
+            <strong>&larr; Previous</strong>
+          </button>
+        </li>
+        <li>
+          <button id="next">
+            <strong>Next &rarr;</strong>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>
+<script type="text/javascript" src="./Js/book_list.js"></script>
+

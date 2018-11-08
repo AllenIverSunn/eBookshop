@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@alicloud/sms-sdk": "^1.0.3",
+    "connect-mysql": "^2.1.7",
+    "connect-session": "^0.0.1",
+    "express-session": "^1.15.6",
+    "kexpress": "^0.1.12",
+    "kexpress-http": "^0.0.2",
+    "ktoolkit": "^1.1.2",
+    "moment": "^2.20.1",
+    "mysql2": "^1.5.1",
+    "pg": "^6.4.2",
+    "querystring": "^0.2.0",
+    "sequelize": "^4.27.0",
+    "sticky-sidebar": "^3.3.1",
+    "wechat-api": "^1.35.1",
+    "weixin-pay": "^1.1.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3"
+  }
+}

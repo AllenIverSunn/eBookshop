@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>图书分类</title>
+  <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../Css/boostrap.css">
+</head>
+
+<body>
+  <!-- 导航栏 -->
+  <!-- <nav class="navbar navbar-inverse">
+    <div class="navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a id="book">图书</a>
+        </li>
+        <li>
+          <a id="customer">用户</a>
+        </li>
+        <li>
+          <a>订单信息</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <h1>
+      <strong>eBookshop Admin</strong>
+    </h1>
+  </div> -->
+  <nav class="navbar navbar-inverse">
+    <div class="navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="#" class="active" id="book">图书管理</a>
+        </li>
+        <li>
+          <a id="customer">用户管理</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container" id="content_all">
+    <center>
+      <div class="input-group col-md-3" id="search" style="margin-top:0px positon:relative">
+        <input type="text" id="search_content" class="form-control" placeholder="请输入图书名" />
+        <span class="input-group-btn">
+          <button class="btn btn-info btn-search" id="btn">查找</button>
+        </span>
+      </div>
+      <div class="container" id="content"></div>
+    </center>
+  </div>
+
+</body>
+
+</html>
+<script type="text/javascript" src="../../Js/admin/admin_book.js"></script>
+
